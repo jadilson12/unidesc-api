@@ -32,6 +32,7 @@ $ npm i -g @nestjs/cli
 ```bash
 $ git clone https://github.com/jadilson12/unidesc-api
 $ cd unidesc-api
+$ npm install
 $ npm run start
 
 ```
@@ -40,4 +41,9 @@ $ npm run start
 
 ```bash
 $ http://localhost:3000/api/
+
 ```
+
+## license
+
+This repo is licensed under the [MIT License](LICENSE).
