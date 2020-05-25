@@ -27,11 +27,29 @@ Uma api que foi desenvolvida para utilizar no aplicativo Ionic
 $ npm i -g @nestjs/cli
 ```
 
-## Rodando a aplicação
+## Baixar o projeto
 
 ```bash
 $ git clone https://github.com/jadilson12/unidesc-api
 $ cd unidesc-api
+$ npm install
+```
+
+## Configurando o banco de Dados mysql
+
+Caso seja necessário alterar acessa o arquivo /src/app.modules
+
+Configuração default:
+
+- host: 'localhost',
+- port: 3306,
+- username: 'root',
+- password: '123456',
+- database: 'unidesc',
+
+## Iniciar o projeto
+
+```bash
 $ npm install
 $ npm run start
 
